@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Montserrat:wght@400;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2c2525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 380px);
+  gap: 24px;
+  background-color: #f5e5e5;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+
+.card {
+  width: 380px;
+  height: 230px;
+  border-radius: 16px;
+  padding: 20px 24px;
+  position: relative;
+  color: #fff7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 15px rgba(20, 19, 19, 0.15);
+  overflow: hidden;
+}
+
+
+.card-purple { background: #8d37de; }
+.card-tinkoff { background: #000000; }
+.card-sber { background: #189c34; }
+.card-vtb { background: #0606fd; }
+
+
+.chip-img {
+  width: 44px;
+  height: 34px;
+  object-fit: contain;
+  border-radius: 7px;
+}
+
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 47px;
+}
+
+
+.card-number {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 24px;
+ 
+  
+  margin-top: 15px;
+  
+}
+
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.holder-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-holder {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+
+}
+
+.valid-thru {
+  display: flex;
+  flex-direction: column;
+  font-size: 9px;
+
+}
+
+.valid-thru .date {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 2px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+
+.visa-img {
+  height: 28px;
+ 
+}
+
+
+.sber-img {
+  height: 32px;
+ 
+}
+
+
+.tinkoff-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tinkoff-shield {
+  width: 36px;
+  height: 36px;
+  background: #ffffff;
+  color: #000;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.tinkoff-text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.tinkoff-title {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.tinkoff-sub {
+  font-size: 11px;
+  color: #ccc;
+}
+
+
+.vtb-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.vtb-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.vtb-line {
+  height: 4px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+.vtb-line:nth-child(1) { width: 22px; }
+.vtb-line:nth-child(2) { width: 18px; }
+.vtb-line:nth-child(3) { width: 14px; }
+
+.vtb-text {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+
+.mastercard-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
